@@ -13,7 +13,7 @@ export default function Container() {
         {" "}
         👩🏻‍💻{" "}
         <a
-          href="https://github.com/Matilde-design/Weather-app-matilde"
+          href="https://github.com/Matilde-design/weatherappmatilda-react"
           target="_blank"
           rel="noopener noreferrer"
         >
