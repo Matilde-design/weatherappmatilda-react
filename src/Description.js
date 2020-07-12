@@ -26,19 +26,18 @@ console.log (response.data);
       <ul>
         <li>Right now in,</li>
         <li className="city" id="city">
-  <i>{props.city}</i>
+     <i>{props.city}</i>
         </li>
         <li id="description">It's {description}</li>
       </ul>
       <strong id="temperature"> {temperature} </strong>
-      <span className="units">
-        <a href="" id="celsius" className="active">
+      <span className="units" />
+        <span href="" id="celsius" className="active">
           ºC{" "}
-        </a>
+        </span>
         |{" "}
-        <a href="" id="fahrenheit">
+        <span href="" id="fahrenheit">
           ºF
-        </a>
       </span>
       <ul>
         <li>
@@ -48,7 +47,8 @@ console.log (response.data);
           <small id="time"> 11:20 am</small>
         </li>
       </ul>
-    </div>
+      </div>
+    
   );}
   else {return <h2>LOADING...</h2>}
 }
