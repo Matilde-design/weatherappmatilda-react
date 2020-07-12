@@ -32,11 +32,11 @@ console.log (response.data);
       </ul>
       <strong id="temperature"> {temperature} </strong>
       <span className="units" />
-        <span href="" id="celsius" className="active">
+        <span  id="celsius" className="active">
           ºC{" "}
         </span>
         |{" "}
-        <span href="" id="fahrenheit">
+        <span id="fahrenheit">
           ºF
       </span>
       <ul>
