@@ -1,0 +1,51 @@
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .space {
+    margin-bottom: 50px;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+  .city {
+    font-size: 20px;
+  }
+  
+  .overview {
+    margin: 10px 0px;
+  }
+  
+  .weather-image {
+    float: left;
+    margin: 10px 40px;
+    font-size: 150px;
+    color: #f9a725;
+  }
+  
+  .daily-weather-info {
+    margin-left: 30px;
+  }
+  
+  .daily-weather-info strong {
+    margin: 40px 0px;
+    font-size: 46px;
+    
+  }
+  
+  .daily-weather-info .units {
+    position: relative;
+    top: -20px;
+  }
+  
+.next-days-weather .icon {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 1, 5;
+    color: #f9a725;
+  }

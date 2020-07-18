@@ -2,78 +2,9 @@ body {
     font-family: "Nunito", sans-serif;
   }
   
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .space {
-    margin-bottom: 50px;
-  }
-  
-  li {
-    list-style: none;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  
-  .city {
-    font-size: 20px;
-  }
-  
-  .overview {
-    margin: 10px 0px;
-  }
-  
-  .weather-image {
-    float: left;
-    margin: 10px 40px;
-    font-size: 150px;
-    color: #f9a725;
-  }
-  
-  .daily-weather-info {
-    margin-left: 30px;
-  }
-  
-  .daily-weather-info strong {
-    margin: 40px 0px;
-    font-size: 46px;
-    color: #142850;
-  }
-  
-  .daily-weather-info .units {
-    position: relative;
-    top: -20px;
-  }
-  
+
   .next-days-weather {
     text-align: center;
-  }
-  
-  .next-days-weather .icon {
-    max-width: 100%;
-    font-size: 40px;
-    line-height: 1, 5;
-    color: #f9a725;
-  }
-  
-  .search-form {
-    margin-bottom: 10px;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 20px auto;
-  }
-  .weather-app-wrapper {
-    padding: 30px;
-    border: 1px solid #000;
-    border-radius: 20px;
-  }
-  
-  .search-icon {
-    font-size: 20px;
   }
   
   .units .active {
@@ -85,49 +16,4 @@ body {
     text-decoration: none;
   }
   
-  button {
-    max-width: 100%;
-    background-color: #fff;
-    border: 1px solid #fff;
-    font-size: 23px;
-    padding: 0px 5px;
-    margin: 0px 13px;
-  }
-  button:hover {
-    font-size: 25px;
-  }
-  
-  button .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #142850;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 2px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-  
-  button .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #142850 transparent transparent transparent;
-  }
-  
-  button:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
-    font-size: 14px;
-  }
-  
+ 

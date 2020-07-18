@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./container.css";
 
 import Wrapper from "./Wrapper";
 
@@ -17,9 +17,9 @@ export default function Container() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open-Source code{" "}
+          Open-Source code
         </a>
-        , by Matilde Maia
+        , by <a href="https://matildemaia.netlify.app/" target="_blank" rel="noopener noreferrer"> Matilde Maia </a>
       </small>
     </div>
   );

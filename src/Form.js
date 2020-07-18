@@ -1,10 +1,20 @@
 import React from "react";
-import "./styles.css";
+import "./form.css";
 
 export default function Form() {
   return (
     <form id="search-form" className="mb-4">
       <div className="row">
+       
+        <div className="col-9">
+          <input
+            type="search"
+            placeholder="Search City"
+            className="form-control"
+            id="city-input"
+            autoComplete="off"
+          />
+        </div>
         <div className="col-1">
           <span className="search-icon">
             <svg
@@ -25,15 +35,6 @@ export default function Form() {
               />
             </svg>
           </span>
-        </div>
-        <div className="col-8">
-          <input
-            type="search"
-            placeholder="Search City"
-            className="form-control"
-            id="city-input"
-            autoComplete="off"
-          />
         </div>
         <div className="col-2">
           <button type="button" id="current-location">

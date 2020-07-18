@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./wrapper.css";
 import Form from "./Form";
 import Mainweather from "./MainWeather";
 import Description from "./Description";
@@ -8,7 +8,6 @@ import Forecast from "./Forecast";
 export default function Wrapper() {
   return (
     <div className="weather-app-wrapper">
-      <div className="container">
         <Form />
         <div className="space" />
         <div className="row">
@@ -16,7 +15,7 @@ export default function Wrapper() {
             <Mainweather />
           </div>
           <div className="col-6">
-            <Description city="Madrid"/>
+            <Description city="Porto"/>
           </div>
         </div>
         <div className="space" />
@@ -41,7 +40,6 @@ export default function Wrapper() {
             <Forecast />
           </div>
         </div>
-      </div>
     </div>
   );
 }

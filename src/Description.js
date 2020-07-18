@@ -1,5 +1,5 @@
 import React, {useState}from "react";
-import "./styles.css";
+import "./description.css";
 import axios from "axios";
 
 export default function Description(props) {
