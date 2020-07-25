@@ -3,7 +3,9 @@
 .hours {
   line-height: 0;
 }
-  
+h1{
+  margin-bottom: 5px;
+}
 p {
   font-size: 16px;
 }
@@ -21,12 +23,20 @@ p {
   
   .temperature {
   font-size: 100px;
-  margin-right: 0;
   }
   
  p .units {
    font-size: 20px;
    position: relative;
    top:-58px;
-   margin-left: 0px;
+ }
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+ li{
+   list-style: none;
+   font-size: 16px;
+   line-height: 30px;
  }
