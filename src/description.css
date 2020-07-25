@@ -1,29 +1,16 @@
-ul {
-    margin: 0;
-    padding: 0;
-  }
+
+
+.hours {
+  line-height: 0;
+}
   
-  .space {
-    margin-bottom: 50px;
-  }
-  
-  li {
-    list-style: none;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  
-  .city {
-    font-size: 20px;
-  }
-  
-  .overview {
-    margin: 10px 0px;
-  }
-  
+p {
+  font-size: 16px;
+}
+
   .weather-image {
     float: left;
-    margin: 10px 40px;
+    margin: 0px 30px;
     font-size: 150px;
     color: #f9a725;
   }
@@ -32,20 +19,14 @@ ul {
     margin-left: 30px;
   }
   
-  .daily-weather-info strong {
-    margin: 40px 0px;
-    font-size: 46px;
-    
+  .temperature {
+  font-size: 100px;
+  margin-right: 0;
   }
   
-  .daily-weather-info .units {
-    position: relative;
-    top: -20px;
-  }
-  
-.next-days-weather .icon {
-    max-width: 100%;
-    font-size: 40px;
-    line-height: 1, 5;
-    color: #f9a725;
-  }
+ p .units {
+   font-size: 20px;
+   position: relative;
+   top:-58px;
+   margin-left: 0px;
+ }

@@ -1,19 +1,15 @@
 body {
-    font-family: "Nunito", sans-serif;
+  font-family: 'Roboto', sans-serif;
   }
   
-
   .next-days-weather {
     text-align: center;
   }
   
-  .units .active {
-    color: black;
-    cursor: default;
+
+  .next-days-weather .icon {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 1,5;
+    color: #f9a725;
   }
-  
-  .units .active:hover {
-    text-decoration: none;
-  }
-  
- 
