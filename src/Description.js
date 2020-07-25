@@ -16,7 +16,6 @@ export default function Description(props) {
     function displayTemperature(response){
 
 console.log (response.data);
-
 setData({
   loaded: true,
   temperature: Math.round(response.data.main.temp),
