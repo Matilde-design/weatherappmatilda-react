@@ -43,24 +43,9 @@ icon: response.data.weather[0].icon,
     <div className="space" />
     <div className="row next-days-weather" id="weatherForecast">
       <div className="space" />
-      <div className="col-2">
-        <Forecast />
-      </div>
-      <div className="col-2">
-        <Forecast />
-      </div>
-      <div className="col-2">
-        <Forecast />
-      </div>
-      <div className="col-2">
-        <Forecast />
-      </div>
-      <div className="col-2">
-        <Forecast />
-      </div>
-      <div className="col-2">
-        <Forecast />
-      </div>
+      
+        <Forecast city={data.city}/>
+      
     </div>
 </div>
 );

@@ -1,0 +1,9 @@
+.forecastInfo {
+    text-align: center;}
+  
+
+  .forecastInfo canvas {
+      display: block;
+      margin: 0 auto;
+      width: 60px;
+  }

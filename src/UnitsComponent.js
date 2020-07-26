@@ -15,11 +15,10 @@ export default function UnitsComponent(props){
     if (metrics === "celsius"){
         return ( 
             <div className="units">
-            <p> <span className="temperature"> {props.celsius}  </span> 
+            <span className="temperature"> {props.celsius}  </span> 
             <span className="units">
             ºC| <a href="/" onClick={convertoFahrenheit}> ºF </a>
             </span>
-            </p>
             
             </div>
             );
@@ -28,12 +27,10 @@ export default function UnitsComponent(props){
         let fahrenheit = Math.round((props.celsius * 9/5)+32 );
         return(
             <div className="units">
-            <p> <span className="temperature"> {fahrenheit}  </span> 
+            <span className="temperature"> {fahrenheit}  </span> 
             <span className="units">
             <a href="/" onClick={convertoCelsius}> ºC </a> | ºF
             </span>
-            </p>
-            
             </div>
         );
     }
