@@ -15,14 +15,17 @@ return (
        <div className="row">
           <p className="text-capitalize">{props.info.description}</p>
        </div>
-       <div className="row hours">  <DateComponent date={props.info.date} />  
+       <div className="row hours"> 
+        <DateComponent date={props.info.date} />  
        </div>
        <div className="row">
 <div className="col-6">
   <IconComponent code={props.info.icon} alt={props.info.description} /> 
    </div>
    <div className="col-6 temperatureinfo">
-      <UnitsComponent celsius={props.info.temperature}/>
+      <UnitsComponent celsius={props.info.temperature}
+      unit={props.unit} setUnit={props.setUnit}
+      />
       <ul>
         <li>
          Wind: {Math.round(props.info.wind)} km/h
