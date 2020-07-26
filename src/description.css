@@ -3,18 +3,16 @@
 .hours {
   line-height: 0;
 }
-h1{
+h2{
   margin-bottom: 5px;
 }
 p {
   font-size: 16px;
 }
 
-  .weather-image {
-    float: left;
-    margin: 0px 30px;
-    font-size: 150px;
-    color: #f9a725;
+  img {
+    width: 150px;
+    
   }
   
   .daily-weather-info {
@@ -26,15 +24,17 @@ p {
   }
   
  p .units {
-   font-size: 20px;
+   font-size: 18px;
    position: relative;
    top:-58px;
+   left: 0px;
  }
 
 ul{
   margin: 0;
   padding: 0;
 }
+
  li{
    list-style: none;
    font-size: 16px;

@@ -1,9 +1,16 @@
 import React from "react";
 import "./form.css";
 
-export default function Form() {
+
+export default function Form(props) {
+
+
+  function handleChange(event){
+    props.setCity(event.target.value)
+  }
+
   return (
-    <form id="search-form" className="mb-4">
+    <form className="mb-4" onSubmit={props.handleSubmit}>
       <div className="row">
        
         <div className="col-9">
@@ -13,6 +20,7 @@ export default function Form() {
             className="form-control"
             id="city-input"
             autoComplete="off"
+            onChange={handleChange}
           />
         </div>
         <div className="col-1">
