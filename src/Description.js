@@ -1,7 +1,8 @@
 import React from "react";
 import "./description.css";
 import DateComponent from "./DateComponent";
-import IconComponent from "./IconComponent"
+import IconComponent from "./IconComponent";
+import UnitsComponent from "./UnitsComponent";
 
 export default function Description(props) {
 
@@ -20,15 +21,7 @@ return (
   <IconComponent code={props.info.icon} alt={props.info.description} /> 
    </div>
    <div className="col-6 temperatureinfo">
-          <p> <span className="temperature"> {props.info.temperature}  </span> 
-        <span  id="celsius" className="active">
-          ºC{" "}
-        </span>
-        |{" "}
-        <span id="fahrenheit">
-          ºF
-        </span>
-      </p>
+      <UnitsComponent celsius={props.info.temperature}/>
       <ul>
         <li>
           Wind: {Math.round(props.info.wind)} km/h
