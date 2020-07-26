@@ -4,6 +4,7 @@ import DateComponent from "./DateComponent";
 import IconComponent from "./IconComponent";
 import UnitsComponent from "./UnitsComponent";
 
+
 export default function Description(props) {
 
 return (
@@ -24,9 +25,9 @@ return (
       <UnitsComponent celsius={props.info.temperature}/>
       <ul>
         <li>
-          Wind: {Math.round(props.info.wind)} km/h
+         Wind: {Math.round(props.info.wind)} km/h
         </li>
-        <li>Humidity: {props.info.humidity}%</li>
+        <li> Humidity: {props.info.humidity}%</li>
       </ul>
         </div>
       </div>

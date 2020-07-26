@@ -1,0 +1,16 @@
+.temperature {
+    font-size: 100px;
+    }
+    
+    .units {
+     font-size: 18px;
+     position: relative;
+     top:-58px;
+     left: 0px;
+   }
+
+   a:hover {
+    text-decoration-line: none;
+    font-weight: bold
+    ;
+   }

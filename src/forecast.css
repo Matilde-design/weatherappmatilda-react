@@ -4,6 +4,6 @@
 
   .forecastInfo canvas {
       display: block;
-      margin: 0 auto;
+      margin: 10px auto;
       width: 60px;
   }

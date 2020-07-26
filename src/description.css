@@ -3,6 +3,7 @@
 .hours {
   line-height: 0;
 }
+
 h2{
   margin-bottom: 5px;
 }
@@ -10,25 +11,10 @@ p {
   font-size: 16px;
 }
 
-  img {
-    width: 150px;
-    
-  }
-  
   .daily-weather-info {
     margin-left: 30px;
   }
   
-  .temperature {
-  font-size: 100px;
-  }
-  
- p .units {
-   font-size: 18px;
-   position: relative;
-   top:-58px;
-   left: 0px;
- }
 
 ul{
   margin: 0;
