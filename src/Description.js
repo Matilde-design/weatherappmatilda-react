@@ -17,18 +17,16 @@ return (
        </div>
        <div className="row">
 <div className="col-6">
-  <IconComponent code={props.info.icon} /> 
+  <IconComponent code={props.info.icon} alt={props.info.description} /> 
    </div>
-         <div className="col-6 temperatureinfo">
+   <div className="col-6 temperatureinfo">
           <p> <span className="temperature"> {props.info.temperature}  </span> 
-        <span className="units">
         <span  id="celsius" className="active">
           ºC{" "}
         </span>
         |{" "}
         <span id="fahrenheit">
           ºF
-        </span>
         </span>
       </p>
       <ul>
