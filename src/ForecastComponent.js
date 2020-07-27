@@ -3,7 +3,6 @@ import "./forecast.css";
 import IconComponent from "./IconComponent";
 
 export default function ForecastComponent (props){
-    console.log(props.units)
     if (props.unit === "celsius")
    { return(
     <div className="col">
